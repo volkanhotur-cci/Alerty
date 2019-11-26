@@ -4,9 +4,13 @@ Alerty is a simple Alert Dialog Library for Android.
 
 # Latest Release
 
-The latest release is available with 1.0.0.
+The latest release is available on Jitpack with 1.0.0-alfa.
 
-    implementation 'com.github.volkanhotur-cci:Alerty:1.0.0-Alfa'
+    repositories {
+		maven { url 'https://jitpack.io' }
+	}
+
+    implementation 'com.github.volkanhotur-cci:Alerty:1.0.0-alfa'
     
 This repo has a sample project. And you can see sample codes below:
 
